@@ -16,7 +16,7 @@ int main(int argc, char **argv)
    ChallengeRoomSystem *sys=NULL;
    Result r=OK;
 
-   r=create_system("test_1.txt", &sys);
+   r=create_system("C:\\Users\\zamit\\OneDrive - Technion\\spring 2017\\mtm\\HW2\\test_1.txt", &sys);
 
    r=visitor_arrive(sys, "room_2", "visitor_1", 201, Medium, 5);
 
@@ -35,7 +35,7 @@ int main(int argc, char **argv)
    r=change_system_room_name(sys, "room_1", "room_111");
 
    r=visitor_arrive(sys, "room_1", "visitor_3", 203, Easy, 8);
-   ASSERT("1.4" , r==ILLEGAL_PARAMETER)
+   ASSERT("1.4" , r==ILLEGAL_TIME)
 
    r=visitor_arrive(sys, "room_111", "visitor_3", 203, Easy, 8);
    ASSERT("1.5" , r==ILLEGAL_TIME)
@@ -54,8 +54,7 @@ int main(int argc, char **argv)
 
    char *namep=NULL;
    r=most_popular_challenge(sys, &namep);
-   ASSERT("1.9" , namep!=NULL && strcmp(namep, "challenge_2")==0)
-
+   ASSERT("1.9" , namep!=NULL && strcmp(namep, "challenge_1111")==0)
    free(namep);
 
    char *room=NULL;

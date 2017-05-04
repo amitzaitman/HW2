@@ -1,11 +1,8 @@
 -----------------------------------------------
-First name : 
-Last name : 
-ID : 
-Email : 
------------------------------------------------
-First name : 
-Last name : 
-ID : 
-Email : 
+amit : 
+zaitman : 
+204098057 : 
+zamit@campus.technion.ac.il : 
+-----------------------------------------------gal : 
+goldich : 204622237 : galgoldich@campus.technion.ac.il : 
 -----------------------------------------------

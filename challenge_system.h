@@ -2,9 +2,16 @@
 #define CHALLENGE_SYSTEM_H_
 
 #include "visitor_room.h"
+#include "challenge.h"
+#include "constants.h"
+#include "visitor_room.h"
 
-typedef struct SChallengeRoomSystem
-{
+typedef struct SVisitors_list {
+    Visitor *visitor;
+    struct SVisitors_list *next_visitor;
+} Visitors_list;
+
+typedef struct SChallengeRoomSystem {
 
 #include "challenge_room_system_fields.h"
 

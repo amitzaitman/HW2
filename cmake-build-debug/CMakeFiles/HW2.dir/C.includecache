@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/challenge.c
+stdio.h
+-
+stdlib.h
+-
+malloc.h
+-
+string.h
+-
+assert.h
+-
+challenge.h
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/challenge.h
+
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/challenge.h
+constants.h
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/constants.h
+
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/challenge_system.c
+stdio.h
+-
+stdlib.h
+-
+malloc.h
+-
+string.h
+-
+assert.h
+-
+challenge_system.h
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/challenge_system.h
+challenge.h
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/challenge.h
+constants.h
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/constants.h
+visitor_room.h
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/visitor_room.h
+
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/challenge_system.h
+visitor_room.h
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/visitor_room.h
+
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/constants.h
+
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/visitor_room.c
+stdio.h
+-
+stdlib.h
+-
+malloc.h
+-
+string.h
+-
+assert.h
+-
+visitor_room.h
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/visitor_room.h
+
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/visitor_room.h
+stdio.h
+-
+malloc.h
+-
+string.h
+-
+assert.h
+-
+challenge.h
+C:/Users/zamit/OneDrive - Technion/spring 2017/mtm/HW2/challenge.h
+

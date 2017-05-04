@@ -18,7 +18,6 @@ typedef struct SVisitor
   struct SChallengeActivity *current_challenge;
 } Visitor;
 
-
 typedef struct SChallengeActivity
 {
    Challenge *challenge;
@@ -26,14 +25,12 @@ typedef struct SChallengeActivity
    int start_time;
 } ChallengeActivity;
 
-
 typedef struct SChallengeRoom
 {
    char *name;
    int num_of_challenges;
    ChallengeActivity *challenges;
 } ChallengeRoom;
-
 
 Result init_challenge_activity(ChallengeActivity *activity, Challenge *challenge);
 
